@@ -335,7 +335,7 @@ header img {
 
 .in-touch {
   display: flex;
-  margin: calc(5vh + var(--header-height)) auto 10px;
+  margin: calc(1vh + var(--header-height)) auto 10px;
   padding: 10px 8%;
   height: calc(100vh - var(--nav-height));
   width: 100vw;
