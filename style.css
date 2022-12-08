@@ -7,9 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-html,
-body {
+html {
   overflow-x: hidden;
   font-family: "Rosario", sans-serif;
   font-size: 12px;
@@ -58,7 +56,7 @@ header img {
 
 .page {
   width: 100vw;
-  margin: calc(30px + var(--header-height)) auto 0;
+  margin: calc(10vh + var(--header-height)) auto 0;
   height: 80vh;
 }
 
@@ -272,7 +270,7 @@ header img {
 }
 
 .team-section {
-  margin: calc(20px + var(--header-height)) auto 0;
+  margin: calc(10vh + var(--header-height)) auto 0;
 }
 
 .team-header {
@@ -285,7 +283,6 @@ header img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: var(--nav-height) auto 0;
   height: calc(100vh - var(--nav-height));
   width: 100vw;
 }
@@ -338,7 +335,7 @@ header img {
 
 .in-touch {
   display: flex;
-  margin: var(--nav-height) auto 10px;
+  margin: calc(5vh + var(--header-height)) auto 10px;
   padding: 10px 8%;
   height: calc(100vh - var(--nav-height));
   width: 100vw;
@@ -451,7 +448,6 @@ dt {
 }
 
 @media (max-width: 1200px) {
-  html,
   body {
     font-size: 8px;
   }
@@ -468,7 +464,6 @@ dt {
 }
 
 @media (max-width: 900px) {
-  html,
   body {
     font-size: 5px;
   }
